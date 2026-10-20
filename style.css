@@ -95,3 +95,33 @@ section h2 {
     color: black;
     font-weight: bold;
 }
+.rodape{
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+@media(max-width: 600px){
+    header{
+        padding: 20px;
+    }
+nav a{
+    display: inline-block;
+    margin: 8px;
+}
+main{
+    padding: 15px;
+
+}
+.produto{
+    width: 100%;
+    max-width: 320px;
+}
+.produto img{
+    height: 170px;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+}
